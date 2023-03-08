@@ -1,0 +1,29 @@
+/*.mainContainer{
+    background-color: rgb(2, 8, 8);
+
+}*/
+
+/*.navbar{
+    background-color: rgb(241,245,244);
+}*/
+
+
+
+.container-1{
+    background-color: rgb(241, 245, 244);
+    border-radius: 10px;
+    
+    
+    
+}
+
+.column-R{
+    border-style:ridge; 
+    border-radius: 10px;   
+}
+
+
+.buttons{
+    text-align: right;
+}
+    

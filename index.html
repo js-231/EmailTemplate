@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- Don’t forget to link your ext. Stylesheet under this comment -->
+     <link href="styles.css" type="text/css" rel="stylesheet"/>
+
+    <title>Bootstrap Grid Practice</title>
+</head>
+
+<body>
+
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand"><b>Welcome, JS</b></a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+<!--
+
+    <div class="container-fluid text-center">
+        <div class="row mainContainer">
+          <div class="col-2 container-1">
+            
+            <ul>Inbox (3)</ul>
+            <ul>Sent</ul>
+            <ul>Draft</ul>
+            <ul>Spam</ul>
+            <ul>Trash</ul>  
+          </div>
+          
+          <div class="col-3 container-2">
+           <ul class="list-group">
+              <li class="list-group-item"> <h6><b>Indeed</b></h6>
+                <p>1 new job in Home Based</p><br/></li>
+              <li class="list-group-item"> <h6><b>Bay Valley Tech Code Academy</b></h6>
+                <p>Bay Valley Tech Code Academy</p><br/></li>
+              <li class="list-group-item"> <h6><b>Linkedin</b></h6>
+                <p>Linkedin News Update</p><br/></li> 
+
+            </ul>
+          </div>
+          
+          <div class="col-7 container-3">
+             <h6>To: BayValleyStudent@gmail.com</h6>
+            <h6>From: Instructor@bayValley.com</h6><br />
+            <h6>Subject: Hello Hello Hello</h6>
+            <p>Welcome to email template project. hello hello hello hello hello</p><br/>
+            <p>Lorem ipsum dolor sit amet. Et culpa incidunt in 
+              commodi sint ut consequatur voluptas. Non iusto veniam 
+              ut fugiat aspernatur vel magni alias ut officia esse.
+           </p> 
+    
+          </div>
+        </div>
+      </div> -->
+      
+
+      <div class="container-1 text-center">
+        <div class="row">
+          <div class="col">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inbox</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Draft</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Spam</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trash</a>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link disabled">Spam</a>
+              </li> -->
+            </ul>
+          </div>
+         </div>
+
+
+         <div class="container-fluid text-center">
+          <div class="row">
+            <div class="col-sm-3 column-L">
+              <ul class="list-group">
+                <li class="list-group-item"> <h6><b>Indeed</b></h6>
+                  <p>1 new job in Home Based</p><br/></li>
+                <li class="list-group-item"> <h6><b>Bay Valley Tech Code Academy</b></h6>
+                  <p>Bay Valley Tech Code Academy</p><br/></li>
+                <li class="list-group-item"> <h6><b>Linkedin</b></h6>
+                  <p>Linkedin News Update</p><br/></li> 
+              </ul>
+            </div>
+
+            <div class="col-sm-9 column-R">
+              <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">To:</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="BayValleyStudent@gmail.com">
+                  <!--<input type="text" readonly class="form-control-plaintext" id="staticEmail" value="BayValleyStudent@gmail.com">-->
+              </div>   
+                
+                <div class="mb-3 row">
+                  
+                  <label for="staticEmail" class="col-sm-2 col-form-label">From:</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Instructor@bayValley.com">
+                <!--  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="BayValleyStudent@gmail.com"> -->
+              </div>    
+                </div>
+
+                <div class="mb-3 row">
+                  
+                  <label for="staticEmail" class="col-sm-2 col-form-label">Subject:</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Welcome Bay Valley Students">
+                
+              </div>    
+                </div>
+
+              </div>
+              
+              <p>Welcome to email template project. </p>
+              <p>Lorem ipsum dolor sit amet. Et culpa incidunt in 
+                commodi sint ut consequatur voluptas. Non iusto veniam 
+                ut fugiat aspernatur vel magni alias ut officia esse.
+             </p> 
+
+             
+
+             <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Reply here</label>
+            </div>
+            </div>
+          </div>
+
+            <div class="buttons">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-primary">Reply</button>
+              <button type="button" class="btn btn-primary">Reply All</button>
+              <button type="button" class="btn btn-primary">Fwd</button>
+            </div>
+          </div>
+           
+
+          </div>
+        </div>
+
+
+         
+
+
+
+
+        </div>
+     
+
+
+
+
+
+
+</body>
+
